@@ -1,0 +1,54 @@
+07-Apr-2019 15:25:56.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+07-Apr-2019 15:25:56.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+07-Apr-2019 15:25:56.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\Softwear\apache-tomcat-9.0.16
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\Softwear\apache-tomcat-9.0.16
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\Softwear\apache-tomcat-9.0.16\conf\logging.properties
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-8CPLBO0
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\Softwear\apache-tomcat-9.0.16
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\Softwear\apache-tomcat-9.0.16
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\Softwear\apache-tomcat-9.0.16\temp
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Apr-2019 15:25:56.607 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+07-Apr-2019 15:25:57.201 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+07-Apr-2019 15:25:57.561 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Apr-2019 15:25:57.561 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2,767] milliseconds
+07-Apr-2019 15:25:57.639 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Apr-2019 15:25:57.639 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+07-Apr-2019 15:25:57.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Softwear\apache-tomcat-9.0.16\webapps\docs]
+07-Apr-2019 15:25:58.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Softwear\apache-tomcat-9.0.16\webapps\docs] has finished in [1,078] ms
+07-Apr-2019 15:25:58.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Softwear\apache-tomcat-9.0.16\webapps\examples]
+07-Apr-2019 15:25:59.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Softwear\apache-tomcat-9.0.16\webapps\examples] has finished in [516] ms
+07-Apr-2019 15:25:59.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Softwear\apache-tomcat-9.0.16\webapps\host-manager]
+07-Apr-2019 15:25:59.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Softwear\apache-tomcat-9.0.16\webapps\host-manager] has finished in [63] ms
+07-Apr-2019 15:25:59.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Softwear\apache-tomcat-9.0.16\webapps\manager]
+07-Apr-2019 15:25:59.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Softwear\apache-tomcat-9.0.16\webapps\manager] has finished in [31] ms
+07-Apr-2019 15:25:59.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\Softwear\apache-tomcat-9.0.16\webapps\ROOT]
+07-Apr-2019 15:25:59.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\Softwear\apache-tomcat-9.0.16\webapps\ROOT] has finished in [31] ms
+07-Apr-2019 15:25:59.373 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+07-Apr-2019 15:25:59.389 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Apr-2019 15:25:59.389 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,828] milliseconds
+07-Apr-2019 16:39:06.113 INFO [http-nio-8081-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Softwear\apache-tomcat-9.0.16\conf\Catalina\localhost\Basic.xml]
+07-Apr-2019 16:39:06.144 WARNING [http-nio-8081-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Basic] in deployment descriptor [E:\Softwear\apache-tomcat-9.0.16\conf\Catalina\localhost\Basic.xml] has been ignored
+07-Apr-2019 16:39:06.457 INFO [http-nio-8081-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Softwear\apache-tomcat-9.0.16\conf\Catalina\localhost\Basic.xml] has finished in [359] ms
+07-Apr-2019 16:39:06.457 INFO [http-nio-8081-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Basic]] after start() had already been called. The second call will be ignored.
+07-Apr-2019 16:44:02.255 INFO [http-nio-8081-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Basic]
+07-Apr-2019 16:44:05.911 INFO [http-nio-8081-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\Softwear\apache-tomcat-9.0.16\conf\Catalina\localhost\Basic.xml]
+07-Apr-2019 16:44:05.911 WARNING [http-nio-8081-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Basic] in deployment descriptor [E:\Softwear\apache-tomcat-9.0.16\conf\Catalina\localhost\Basic.xml] has been ignored
+07-Apr-2019 16:44:06.051 INFO [http-nio-8081-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\Softwear\apache-tomcat-9.0.16\conf\Catalina\localhost\Basic.xml] has finished in [140] ms
+07-Apr-2019 16:44:06.067 INFO [http-nio-8081-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Basic]] after start() had already been called. The second call will be ignored.
+07-Apr-2019 16:45:29.410 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Basic]
+07-Apr-2019 16:45:29.410 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Basic] has started
+07-Apr-2019 16:45:29.895 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Basic] is completed
