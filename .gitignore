@@ -1,5 +1,6 @@
 /Basic/build/
 /Basic/dist/
+<<<<<<< HEAD
 /Barisir/FirstTest/nbproject/private/
 /Barisir/FirstJsp/nbproject/private/
 /Barisir/FirstsJsp/nbproject/private/
@@ -25,3 +26,16 @@
 /PrimeNumber/dist/
 /jspdemo/nbproject/private/
 /jspdemo/build/
+=======
+/DemoServlet/nbproject/private/
+/DemoServlet/build/
+/DemoServlet/dist/
+/ServletDemo2/nbproject/private/
+/ServletDemo2/build/
+/GetStart1/nbproject/private/
+/GetStart1/build/
+/Patical/nbproject/private/
+/Patical/build/
+/JstlInstallation/nbproject/private/
+/JstlInstallation/build/
+>>>>>>> a6a6cf6f4801ada9131fc87749fa11c2b8569e79
