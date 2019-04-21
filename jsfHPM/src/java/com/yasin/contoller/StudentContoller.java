@@ -10,7 +10,9 @@ import com.yasin.service.StudentService;
 import com.yasin.serviceImp.StudentServiceImp;
 import java.util.ArrayList;
 import java.util.List;
+import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
 
 /**
  *
@@ -22,15 +24,24 @@ public class StudentContoller {
     private Student student;
     private List<Student> students;
     private StudentService service;
+    private String message;
+    
 
     public void save() {
         service = new StudentServiceImp();
         service.saveStudent(student);
+        FacesContext.getCurrentInstance().addMessage("MessageId", new FacesMessage(FacesMessage.SEVERITY_INFO,"Successfull","You did something!"));
         System.out.println("Successfully save !");
     }
+public void update(){
+    service = new StudentServiceImp();
+    service.updateStudent(student);
+    FacesContext.getCurrentInstance().addMessage("MessageIdUp", new FacesMessage(FacesMessage.SEVERITY_INFO,"Update Successfull!", "You did something!"));
+     System.out.println("Successfully update !");
 
+}
     public Student getStudent() {
-        if (students == null) {
+        if (student == null) {
             student = new Student();
         }
         return student;
@@ -51,4 +62,11 @@ public class StudentContoller {
         this.students = students;
     }
 
+     public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 }

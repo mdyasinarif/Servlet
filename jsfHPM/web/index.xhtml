@@ -16,109 +16,90 @@
 
         <h:body>
 
-            <p:layout fullPage="true">
+            <h:form>              
+               <p:messages for="MessageId" showDetail="true" autoUpdate="true" closable="true"/>
+                <p:messages for="MessageIdUp" showDetail="true" autoUpdate="true" closable="true"/>
+                <p:outputLabel value="ID"/>
+                <p:inputText value="#{studentContoller.student.id}"/><br/>
+              
+                <p:outputLabel value="Student Name"/>
+                <p:inputText value="#{studentContoller.student.studentName}"/><br/>
+               
+                <p:outputLabel value="Gender"/>
+                <p:selectOneRadio id="gender" value="#{studentContoller.student.gender}" >
+                    <f:selectItem itemLabel="Male" itemValue="m" />
+                    <f:selectItem itemLabel="Female" itemValue="f" />                         
+                </p:selectOneRadio>
+                <br/>
+                <p:outputLabel value="Round"/>
+                <p:selectOneMenu id="Round" value="#{studentContoller.student.round}" style="width:125px">
+                    <f:selectItem itemLabel="Select Round" itemValue="" />
+                    <f:selectItem itemLabel="Round-37" itemValue="Round-37" />
+                    <f:selectItem itemLabel="Round-38" itemValue="Round-38" />
+                    <f:selectItem itemLabel="Round-39" itemValue="Round-39" />
+                    <f:selectItem itemLabel="Round-40" itemValue="Round-40" />
+                </p:selectOneMenu>
+                <br/>
+                <p:outputLabel value="Status"/>
+                <p:selectOneRadio id="status" value="#{studentContoller.student.courseStatus}" >
+                    <f:selectItem  itemLabel="Going On" itemValue="go" />
+                    <f:selectItem itemLabel="Complete" itemValue="c" />                         
+                </p:selectOneRadio>
+                <br/>
+                <p:outputLabel value="Joining Date"/>
+                <p:calendar value="#{studentContoller.student.courseStartDate}"/>
 
-                <p:layoutUnit position="north" size="100" resizable="true" closable="true" collapsible="true">
-                    Header
-                </p:layoutUnit>
+               <br/>
+                <p:outputLabel value="Completed Course"/>
+                <p:selectManyCheckbox id="cc" value="#{studentContoller.student.completedCourse}">
+                    <f:selectItem itemLabel="HTML" itemValue="HTML" />
+                    <f:selectItem itemLabel="JAVA" itemValue="Java" />
+                    <f:selectItem itemLabel="Swing" itemValue="Swing" />
+                    <f:selectItem itemLabel="Oracle" itemValue="Oracle" />
+                </p:selectManyCheckbox>
+                <br/>
+                <p:outputLabel value="Note"/>
+                <p:inputTextarea value="#{studentContoller.student.note}"/>
+               <br/>
+                <p:commandButton action="#{studentContoller.save()}" value="Add Student" update=":list:stulist"/>
+                <p:commandButton action="#{studentContoller.update()}" value="Update Student"  update=":list:stulist"/>
+            </h:form>
 
-                <p:layoutUnit position="south" size="100" closable="true" collapsible="true">
-                    Footer
-                </p:layoutUnit>
 
-                <p:layoutUnit position="west" size="175" header="Left" collapsible="true">
-                    <p:menu>
-                        <p:submenu label="Resources">
-                            <p:menuitem value="Demo" url="http://www.primefaces.org/showcase-labs/ui/home.jsf" />
-                            <p:menuitem value="Documentation" url="http://www.primefaces.org/documentation.html" />
-                            <p:menuitem value="Forum" url="http://forum.primefaces.org/" />
-                            <p:menuitem value="Themes" url="http://www.primefaces.org/themes.html" />
 
-                        </p:submenu>
+            <hr/>
+            <h:form id="list">
+                <p:dataTable id="stulist" var="stu" value="#{studentContoller.students}">
+                <p:column headerText="Id">
+                    <h:outputText value="#{stu.id}" />
+                </p:column>
+                <p:column headerText="Student Name">
+                    <h:outputText value="#{stu.studentName}" />
+                </p:column>
 
-                    </p:menu>
-                </p:layoutUnit>
+                <p:column headerText="Gender">
+                    <h:outputText value="#{stu.gender}" />
+                </p:column>
 
-                <p:layoutUnit position="center">
-                    Welcome to PrimeFaces
-                    <h:form>
-                        <p:outputLabel value="ID"/> <br/>
-                        <p:inputText value="#{studentContoller.student.id}"/>
-                        <br/>
-                        <p:outputLabel value="Name"/> <br/>
-                        <p:inputText value="#{studentContoller.student.studentName}"/>
-                        <br/>
-                        <p:outputLabel value="Gender"/> <br/>
-                        <p:selectOneRadio id="gender" value="#{studentContoller.student.gender}">
-                            <f:selectItem itemLabel="Male" itemValue="M" />
-                            <f:selectItem itemLabel="FeMale" itemValue="F" />
-                        </p:selectOneRadio>
+                <p:column headerText="Round">
+                    <h:outputText value="#{stu.round}" />
+                </p:column>
+                <p:column headerText="Status">
+                    <h:outputText value="#{stu.courseStatus}" />
+                </p:column>
+                <p:column headerText="Couse Completed">
+                    <p:dataList value="#{stu.completedCourse}" var="c" type="ordered">
+                        <h:outputText value="#{c}" /></p:dataList>
 
-                        <p:outputLabel value="Round"/> <br/>
-                        <p:selectOneMenu id="round" value="#{studentContoller.student.round}" style="width:150px">
-                            <f:selectItem itemLabel="Select Round" itemValue="" />
-                            <f:selectItem itemLabel="Round-37" itemValue="Round-37" />
-                            <f:selectItem itemLabel="Round-38" itemValue="Round-38" />
-                            <f:selectItem itemLabel="Round-39" itemValue="Round-39" />
-                        </p:selectOneMenu>
-                        <br/>
-                        <p:outputLabel value="Date"/> <br/>
-                        <p:calendar value="#{studentContoller.student.courseStartDate}"/>
-                        <br/>
-                        <p:outputLabel value="Status"/> <br/>
-                        <p:selectOneRadio id="status" value="#{studentContoller.student.courseStatus}">
-                            <f:selectItem itemLabel="GoingOn" itemValue="GoingOn" />
-                            <f:selectItem itemLabel="Compleated" itemValue="Compleated" />
-                        </p:selectOneRadio>
-                        <br/>
-                        <p:outputLabel value="completedCourse"/> <br/>
-                        <p:selectManyCheckbox  id="completedCourse" value="#{studentContoller.student.completedCourse}">
-                            <f:selectItem itemLabel="HTML" itemValue="HTML" />
-                            <f:selectItem itemLabel="JAVA" itemValue="JAVA" />
-                            <f:selectItem itemLabel="C#" itemValue="C#" />
-                        </p:selectManyCheckbox >
-                        <br/>
-                        <p:outputLabel value="note"/> <br/>
-                        <p:inputTextarea value="#{studentContoller.student.note}"/>
-                         <br/>
-                         <p:commandButton action="#{studentContoller.save()}" value="Submit"/>
-                    </h:form>
+                </p:column>
 
-                    <hr/>
-                    <p:dataTable var="stu" value="#{studentContoller.students}">
-                        <p:column headerText="Id">
-                            <h:outputText value="#{stu.id}" />
-                        </p:column>
-                        <p:column headerText="Student Name">
-                            <h:outputText value="#{stu.studentName}" />
-                        </p:column>
-                        <p:column headerText="Gender">
-                            <h:outputText value="#{stu.gender}" />
-                        </p:column>
-                        <p:column headerText="Round">
-                            <h:outputText value="#{stu.round}" />
-                        </p:column>
-                        <p:column headerText="Date">
-                            <h:outputText value="#{stu.courseStartDate}" >
-                                <f:convertDateTime pattern="dd-MM-yyyy"/>
-                            </h:outputText>
-                        </p:column>
-                        <p:column headerText="Status">
-                            <h:outputText value="#{stu.courseStatus}" />
-                        </p:column>
-                        <p:column headerText="Course Completed">
-                            <p:dataList  value="#{stu.completedCourse}" var="c" type="ordered">
-                                <h:outputText value="#{c}" />
-                            </p:dataList>
-                        </p:column>
-                        <p:column headerText="Note">
-                            <h:outputText value="#{stu.note}" />
-                        </p:column>
-
-                    </p:dataTable>
-                </p:layoutUnit>
-
-            </p:layout>
+                <p:column headerText="Joining Date">
+                    <h:outputText value="#{stu.courseStartDate}" >
+                        <f:convertDateTime pattern="dd-MM-yyyy" />
+                    </h:outputText>
+                </p:column>
+            </p:dataTable>
+            </h:form>
 
         </h:body>
 

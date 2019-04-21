@@ -34,8 +34,19 @@ public class StudentServiceImp implements StudentService{
         List<Student> list = new ArrayList<>();
         SessionFactory sessionFactory = NewHibernateUtil.getSessionFactory();
         Session session = sessionFactory.getCurrentSession();
+        Transaction tr = session.beginTransaction();
         list = session.createCriteria(Student.class).list();
+        tr.commit();
         return list;
+    }
+
+    @Override
+    public void updateStudent(Student student) {
+        SessionFactory sessionFactory = NewHibernateUtil.getSessionFactory();
+        Session session = sessionFactory.getCurrentSession();
+        Transaction tr = session.beginTransaction();
+        session.saveOrUpdate(student);
+        tr.commit();
     }
     
 }
