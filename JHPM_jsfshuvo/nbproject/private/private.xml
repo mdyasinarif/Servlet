@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/Git/Servlet/JHPM_jsfshuvo/src/java/hibernate.cfg.xml</file>
+            <file>file:/E:/Git/Servlet/JHPM_jsfshuvo/web/index.xhtml</file>
+            <file>file:/E:/Git/Servlet/JHPM_jsfshuvo/src/java/controller/StudentController.java</file>
+            <file>file:/E:/Git/Servlet/JHPM_jsfshuvo/web/WEB-INF/web.xml</file>
+            <file>file:/E:/Git/Servlet/JHPM_jsfshuvo/src/java/service/StudentService.java</file>
+            <file>file:/E:/Git/Servlet/JHPM_jsfshuvo/src/java/entity/Student.java</file>
+            <file>file:/E:/Git/Servlet/JHPM_jsfshuvo/src/java/util/NewHibernateUtil.java</file>
+            <file>file:/E:/Git/Servlet/JHPM_jsfshuvo/src/java/serviceImpl/StudentServiceImpl.java</file>
+        </group>
+    </open-files>
+</project-private>
