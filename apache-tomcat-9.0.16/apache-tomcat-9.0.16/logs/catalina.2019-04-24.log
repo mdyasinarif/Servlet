@@ -1,0 +1,128 @@
+24-Apr-2019 01:24:39.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+24-Apr-2019 01:24:39.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+24-Apr-2019 01:24:39.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+24-Apr-2019 01:24:39.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Apr-2019 01:24:39.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Apr-2019 01:24:39.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2019 01:24:39.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+24-Apr-2019 01:24:39.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+24-Apr-2019 01:24:39.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Apr-2019 01:24:39.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16
+24-Apr-2019 01:24:39.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16
+24-Apr-2019 01:24:39.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\logging.properties
+24-Apr-2019 01:24:39.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2019 01:24:39.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-8B4V8EO
+24-Apr-2019 01:24:39.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2019 01:24:39.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2019 01:24:39.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Apr-2019 01:24:39.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16
+24-Apr-2019 01:24:39.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16
+24-Apr-2019 01:24:39.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\temp
+24-Apr-2019 01:24:39.579 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+24-Apr-2019 01:24:39.580 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Apr-2019 01:24:39.580 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Apr-2019 01:24:39.860 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+24-Apr-2019 01:24:41.899 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+24-Apr-2019 01:24:42.511 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Apr-2019 01:24:42.528 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [9,963] milliseconds
+24-Apr-2019 01:24:42.800 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2019 01:24:42.800 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+24-Apr-2019 01:24:42.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\Basic.xml]
+24-Apr-2019 01:24:43.042 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Basic] in deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\Basic.xml] has been ignored
+24-Apr-2019 01:24:44.096 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\Basic.xml]
+ java.lang.IllegalStateException: Error starting child
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1832)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1577)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:929)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:928)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:638)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@77ec78b9]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4783)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	... 37 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [E:\Git\Servlet\Basic\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 41 more
+
+24-Apr-2019 01:24:44.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\Basic.xml] has finished in [1,268] ms
+24-Apr-2019 01:24:44.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\jspdemo.xml]
+24-Apr-2019 01:24:44.208 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/jspdemo] in deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\jspdemo.xml] has been ignored
+24-Apr-2019 01:24:46.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\jspdemo.xml] has finished in [2,554] ms
+24-Apr-2019 01:24:46.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\JstlDamo.xml]
+24-Apr-2019 01:24:46.745 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/JstlDamo] in deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\JstlDamo.xml] has been ignored
+24-Apr-2019 01:24:47.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\JstlDamo.xml] has finished in [608] ms
+24-Apr-2019 01:24:47.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\LoginUsingJSPServlet.xml]
+24-Apr-2019 01:24:47.339 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LoginUsingJSPServlet] in deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\LoginUsingJSPServlet.xml] has been ignored
+24-Apr-2019 01:24:47.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\LoginUsingJSPServlet.xml] has finished in [334] ms
+24-Apr-2019 01:24:47.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\MyJsp.xml]
+24-Apr-2019 01:24:47.697 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/MyJsp] in deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\MyJsp.xml] has been ignored
+24-Apr-2019 01:24:47.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\MyJsp.xml] has finished in [200] ms
+24-Apr-2019 01:24:47.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\MyServlet.xml]
+24-Apr-2019 01:24:47.865 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/MyServlet] in deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\MyServlet.xml] has been ignored
+24-Apr-2019 01:24:48.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\MyServlet.xml] has finished in [212] ms
+24-Apr-2019 01:24:48.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\SumusingServlet.xml]
+24-Apr-2019 01:24:48.080 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SumusingServlet] in deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\SumusingServlet.xml] has been ignored
+24-Apr-2019 01:25:09.197 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Apr-2019 01:25:09.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\SumusingServlet.xml] has finished in [21,151] ms
+24-Apr-2019 01:25:09.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\tageDamo.xml]
+24-Apr-2019 01:25:09.534 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/tageDamo] in deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\tageDamo.xml] has been ignored
+24-Apr-2019 01:25:11.980 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Apr-2019 01:25:12.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\tageDamo.xml] has finished in [2,893] ms
+24-Apr-2019 01:25:12.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\ToDojsp.xml]
+24-Apr-2019 01:25:12.186 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ToDojsp] in deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\ToDojsp.xml] has been ignored
+24-Apr-2019 01:25:12.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\conf\Catalina\localhost\ToDojsp.xml] has finished in [307] ms
+24-Apr-2019 01:25:12.421 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\webapps\docs]
+24-Apr-2019 01:25:12.682 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\webapps\docs] has finished in [260] ms
+24-Apr-2019 01:25:12.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\webapps\examples]
+24-Apr-2019 01:25:28.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\webapps\examples] has finished in [15,950] ms
+24-Apr-2019 01:25:28.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\webapps\host-manager]
+24-Apr-2019 01:25:29.137 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\webapps\host-manager] has finished in [501] ms
+24-Apr-2019 01:25:29.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\webapps\manager]
+24-Apr-2019 01:25:30.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\webapps\manager] has finished in [1,128] ms
+24-Apr-2019 01:25:30.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\webapps\ROOT]
+24-Apr-2019 01:25:30.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\IDB\Git\Servlet\apache-tomcat-9.0.16\apache-tomcat-9.0.16\webapps\ROOT] has finished in [315] ms
+24-Apr-2019 01:25:30.648 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+24-Apr-2019 01:25:30.856 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Apr-2019 01:25:30.949 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [48,419] milliseconds
+24-Apr-2019 01:26:25.011 INFO [http-nio-8081-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tageDamo] has started
+24-Apr-2019 01:26:26.810 INFO [http-nio-8081-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Apr-2019 01:26:26.877 INFO [http-nio-8081-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/tageDamo] is completed
