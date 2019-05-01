@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Basic/build/
 /Basic/dist/
 <<<<<<< HEAD
@@ -49,3 +50,11 @@
 /ssbbs/nbproject/private/
 /imimiapub/nbproject/private/
 /imamiapub/nbproject/private/
+=======
+/loginuser/nbproject/private/
+/loginuser/build/
+/jsftheminstall/nbproject/private/
+/jsftheminstall/build/
+>>>>>>> 10408d77bad88e44dcbf7a608ba1bfaac2d3e2ad
+/jsfHPM/nbproject/private/
+/jsfHPM/build/
